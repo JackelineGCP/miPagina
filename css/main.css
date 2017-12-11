@@ -119,9 +119,7 @@ nav ul {
 }
 
 [class*='col-']{
-  
   text-align: justify;
- 
   float: left;
 }
 
@@ -178,25 +176,33 @@ footer {
   height: 10vh;
   background-color: #0c3c60;
   color: white;
-  margin-top: 30px;
+  margin-top: 40px;
 }
 
 footer p {
   text-align: center;
   position: relative;
-  top: 26px;
+  top: 15px;
 }
 
 .boxescontain {
   height: 100vh;
-  padding: 25px;
+  padding: 30px;
   text-align: center;
   text-align: justify;
+  margin: 35px 0 45px 0;
 }
 
 .boxes {
   height: auto;
   padding: 20px;
+}
+
+.circule{
+  border-radius: 100%;
+  width: 250px;
+  height: 250px;
+  margin: 2px 0 0 25px;
 }
 
 button {
@@ -236,13 +242,6 @@ img{
   margin-left: 30%;
 }
 
-.circule{
-  margin-left: 6%;
-  border-radius: 100%;
-  width: 250px;
-  height: 250px;
-}
-
 nav p {
   font-family: 'Bungee', cursive; 
   font-size: 21px;
@@ -278,15 +277,15 @@ display:none;
 nav .main {
   border-radius: 6px;
   color: rgb(123, 192, 192);
-  font-size: 100%;
   display: block;
+  font-size: 100%;
   float: right;
-  width: 5%;
   position: relative;
   padding: 2%;
   margin: 0 10px 0 10px; 
   text-align: center;
-  top: 12px;
+  top: 10px;
+  width: 7%;
   }
 }
 
